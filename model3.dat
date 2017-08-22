@@ -1,0 +1,69 @@
+camera orthographic 	5 -5 5 	0 0 0 	0 0 1 	5  0.1 20
+
+resolution  	0.025 0.025
+
+viewport  	400 400
+
+
+light ID 1 pnt 	5 7 3		-1 -1 0 1 0.0 0 	1 0 0.0025 5 shadow_off
+
+light ID 2 pnt	-8 -8 2 	0 1  0 	0.5 0 1 	1 0 0.003 0 shadow_off
+
+light ID 3 pnt	8 0 5		0 0  -1 0 .8 0	 	1 0 0.003 0 shadow_off
+
+light ID 4 amb  8 8 8		0 0 0   0.1 0.1 0.1	1 0 0 0 shadow_off
+
+
+mat ID 0 	1.0 1.0 1.0 	0.3 0.7 0.5 50	0.6 0.4 1.25
+
+mat ID 1 	0.25 0.75 1.0 	0.1 0.7 0.1 2	0.0 0.8 0
+
+
+
+render 0
+
+obj sphere ID 0 mat ID 0 0 0 0 .5
+
+
+obj sphere ID 1 mat ID 0 2 0 0 .5
+
+obj sphere ID 2 mat ID 0 4 0 0 .5
+
+
+obj sphere ID 3 mat ID 0 -2 0 0 .5
+
+
+obj sphere ID 4 mat ID 0 -4 0 0 .5
+
+
+obj sphere ID 5 mat ID 0 0 2 0 .5
+
+
+obj sphere ID 6 mat ID 0 2 2 0 .5
+
+
+obj sphere ID 7 mat ID 0 4 2 0 .5
+
+
+obj sphere ID 8 mat ID 0 -2 2 0 .5
+
+
+obj sphere ID 9 mat ID 0 -4 2 0 .5
+
+
+obj sphere ID 10 mat ID 0 0 -2 0 .5
+
+
+obj sphere ID 11 mat ID 0 2 -2 0 .5
+
+
+obj sphere ID 12 mat ID 0 4 -2 0 .5
+
+
+obj sphere ID 13 mat ID 0 -2 -2 0 .5
+
+
+obj sphere ID 14 mat ID 0 -4 -2 0 .5
+
+
+obj ellipsoid ID 15 mat ID 1 0 0 -4 5 3 2
